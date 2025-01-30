@@ -1,0 +1,8 @@
+config:
+  framework: "foundry" 
+  node_version: "20" 
+  package_manager: "forge"
+
+tasks:
+  install-dependencies:
+    - forge install
